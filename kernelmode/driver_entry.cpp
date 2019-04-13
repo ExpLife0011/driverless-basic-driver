@@ -1,7 +1,5 @@
 #include "stdafx.h"
 
-//no reason to create our own trash just use someone else driver)
-
 // communicate with driver via readfile
 NTSTATUS read_io(PDEVICE_OBJECT device_obj, PIRP irp) {
 	irp->IoStatus.Status = STATUS_SUCCESS;
