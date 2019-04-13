@@ -6,3 +6,6 @@ supported methods
 - read/write process memory
 - open kernel mode handle 
 - get process base address
+- clean unloaded drivers
+
+credits: unknowncheats.me
