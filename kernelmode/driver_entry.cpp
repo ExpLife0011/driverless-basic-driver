@@ -105,7 +105,7 @@ NTSTATUS DriverEntry(PDRIVER_OBJECT driver_obj, PUNICODE_STRING registery_path) 
 	status = IoCreateDriver(&drv_name, &driver_initialize);
 
 	clean_unloaded_drivers();//clean up
-	return STATUS_SUCCESS;
+	return status;
 }
 
 
